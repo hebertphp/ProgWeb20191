@@ -2,7 +2,7 @@
      if (($_SERVER["REQUEST_METHOD"] == "POST") || (isset($_COOKIE["voto"]))){ 
           if (!isset($_COOKIE["voto"])){
                //setcookie('voto','true', (time()+(2*24*3600)));
-			   setcookie('voto','true', (time()+(20)));
+		 setcookie('voto','true', (time()+(20)));
                $voto = $_POST["musica"];
                echo "Você votou em: $voto <br>";
                echo "Obrigado pelo seu voto";
