@@ -17,7 +17,7 @@ if(!isset($_SESSION["login"])){
  <h1>PG1</h1> 
   Login=<?php echo $_SESSION['login']." ".date("d/m/Y H:i:s",$_SESSION['time'])." ".date("i:s",$agora); ?><br>
  
- <a href="pg2.php">PG1</a>  | <b>PG2</b> |  <a href="login.php">SAIR</a> | 
+ <a href="pg1.php">PG1</a>  | <b>PG2</b> |  <a href="login.php">SAIR</a> | 
 
 </form>
 </body>
