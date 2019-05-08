@@ -11,7 +11,7 @@ $_SESSION=array();
 <body>
 <form method="post" action="recebe.php">
 Login <input type="text" name="login" value=""><br>
-Senha <input type="text" name="senha" value=""><br>
+Senha <input type="password" name="senha" value=""><br>
 <input type="submit" value="Enviar">
 </form>
 <?php
