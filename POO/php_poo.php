@@ -24,27 +24,11 @@ class Aluno
     }
 }
 
-class AlunoPhp extends aluno{
-    private $av1=0;
-    function setAv1($nota1,$nota2,$nota3){
-        $this->av1=round(($nota1+$nota2+$nota3)/3,2);
-    }
-    function getAv1(){
-        return $this->av1;
-    }
-    function imprimeAlunoAv1(){
-         echo "Nome: ".$this->getNome();
-         echo ", Ra: ".$this->getRa();
-         echo ", AV1: ".$this->getAv1();
-    }
-}    
 
-$obj = new AlunoPhp();
+$obj = new Aluno();
 $obj->setNome("Joao");
 $obj->setRa("91811234");
-$obj->setAv1(5,6,8);
-//var_dump($obj);
 echo "<br>";
-$obj->imprimeAlunoAv1();
+$obj->imprimeAluno();
 
 ?>
